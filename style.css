@@ -1,0 +1,35 @@
+/* CSS files add styling rules to your content */
+
+body {
+  margin: 0cm;
+}
+
+.cover {
+  height: 400px;
+  background-image: url(https://cdn.glitch.global/704b7407-000f-4d09-86c2-901ee92a1a5b/b0a983f2-a5d1-406b-a7c7-dcbba2060acb.image.png?v=1656954765979);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+.cover-small {
+  height:200px;
+  background-blend-mode:normal;
+}
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.86);
+}
+.card-tittle{
+  min-height:2.5rem;
+}
+.card-text{
+  min-height:4rem;
+}
+.texto{
+  color:black;
+  
+}
